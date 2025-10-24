@@ -3,13 +3,13 @@ import Header from "./components/Header";
 import CartProvider from "./components/Store/CartProvider";
 import ProductList from "./components/products/ProductList";
 
-const App = () =>{
+const App = () => {
   return (
     <CartProvider>
-      <Header></Header>
-      <ProductList></ProductList>
+      <Header />
+      <ProductList />
     </CartProvider>
   );
-}
+};
 
 export default App;
