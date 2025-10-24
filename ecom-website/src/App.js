@@ -1,12 +1,14 @@
 import "./App.css";
 import Header from "./components/Header";
+import CartProvider from "./components/Store/CartProvider";
 import ProductList from "./components/products/ProductList";
-const App =() =>{
+
+const App = () =>{
   return (
-    <div>
-      <Header />
-      <ProductList />
-    </div>
+    <CartProvider>
+      <Header></Header>
+      <ProductList></ProductList>
+    </CartProvider>
   );
 }
 
