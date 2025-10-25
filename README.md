@@ -41,5 +41,5 @@ src/
 ├── App.js
 ├── index.js
 └── firebase.js
-## 📂 Folder Structure
+
 
