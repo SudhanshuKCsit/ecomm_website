@@ -29,17 +29,17 @@ This project includes user authentication, product browsing, cart management, an
 | 💅 CSS / Bootstrap | Styling and responsive design |
 
 ---
-## 📂 Folder Structure
+# Deploy Command 
 
-src/
-├── components/
-│ ├── Header/
-│ ├── Products/
-│ ├── Cart/
-│ ├── Auth/
-│ └── Pages/ (Home, About, ContactUs)
-├── App.js
-├── index.js
-└── firebase.js
+# install once (dev dependency)
+npm install --save-dev gh-pages
+
+# add to package.json scripts:
+# "predeploy": "npm run build",
+# "deploy": "gh-pages -d build"
+
+# then run:
+npm run deploy
+
 
 
