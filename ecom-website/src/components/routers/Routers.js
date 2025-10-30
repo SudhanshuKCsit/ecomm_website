@@ -1,4 +1,4 @@
-import ProductList from "../products/ProductList";
+import ProductList from "../products/productList";
 import About from "../layout/About";
 import Home from "../layout/Home";
 import ContactUs from "../layout/ContactUs";
