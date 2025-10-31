@@ -1,10 +1,10 @@
-import ProductList from "../products/productList";
 import About from "../layout/About";
 import Home from "../layout/Home";
 import ContactUs from "../layout/ContactUs";
 import { Route, Routes } from "react-router-dom";
 import ProductPage from "../products/ProductPage";
 import AuthForm from "../Auth/AuthForm";
+import ProductList from "../products/ProductList";
 
 export const routePath = {
   Home: "/",
